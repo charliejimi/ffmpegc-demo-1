@@ -106,7 +106,7 @@
 	return self;
 	
 initError:
-	[self release];
+	//[self release];
 	return nil;
 }
 
@@ -158,7 +158,7 @@ initError:
 		avformat_close_input(&pFormatCtx);
 	}
 	
-	[super dealloc];
+	//[super dealloc];
 }
 
 -(BOOL)stepFrame {
