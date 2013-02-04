@@ -106,7 +106,7 @@
 	return self;
 	
 initError:
-	//[self release];
+	//[self release]; // MRC 
 	return nil;
 }
 
